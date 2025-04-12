@@ -3,9 +3,8 @@ from tkinter import messagebox, filedialog, ttk, simpledialog, Toplevel
 from weather_station import WeatherStation
 from database import WeatherDatabase
 from plot import plot_data
-import datetime
+from datetime import datetime  # Removed `import datetime`
 import requests
-from datetime import datetime
 
 # Sponsor Class
 class Sponsor:
@@ -99,7 +98,7 @@ class WeatherStationApp:
 
     def get_data(self):
         data = self.weather_station.get_data()
-        timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")  # Fixed the datetime usage
         self.database.save_data(
             timestamp,
             data["temperature"],
