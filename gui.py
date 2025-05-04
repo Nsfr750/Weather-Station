@@ -26,7 +26,7 @@ class Sponsor:
 
         def open_discord():
             import webbrowser
-            webbrowser.open("https://discord.gg/q5Pcgrju")
+            webbrowser.open("https://discord.gg/BvvkUEP9")
 
         # Create and place buttons
         patreon_button = tk.Button(sponsor_root, text="Join the Patreon!", command=open_patreon)
