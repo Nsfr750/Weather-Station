@@ -50,7 +50,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Social Links
-- [GitHub](https://github.com/Nsfr750)
+- [GitHub](https://github.com/sponsors/Nsfr750)
 - [Patreon](https://www.patreon.com/Nsfr750)
 - [Discord](https://discord.gg/BvvkUEP9)
 - [Paypal](https://paypal.me/3dmega)

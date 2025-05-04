@@ -18,7 +18,7 @@ class Sponsor:
 
         def open_patreon():
             import webbrowser
-            webbrowser.open("https://www.patreon.com/Nsfr750")
+            webbrowser.open("https://www.patreon.com/sponsors/Nsfr750")
 
         def open_github():
             import webbrowser
@@ -28,15 +28,22 @@ class Sponsor:
             import webbrowser
             webbrowser.open("https://discord.gg/BvvkUEP9")
 
+        def open_paypal():
+            import webbrowser
+            webbrowser.open("https://paypèal.me/3dmega")
+
         # Create and place buttons
         patreon_button = tk.Button(sponsor_root, text="Join the Patreon!", command=open_patreon)
-        patreon_button.pack(pady=10)
+        patreon_button.pack(pady=5)
 
         github_button = tk.Button(sponsor_root, text="GitHub", command=open_github)
-        github_button.pack(pady=10)
+        github_button.pack(pady=5)
 
         discord_button = tk.Button(sponsor_root, text="Discord", command=open_discord)
-        discord_button.pack(pady=10)
+        discord_button.pack(pady=5)
+
+        paypal_button = tk.Button(sponsor_root, text="Paypal", command=open_paypal)
+        paypal_button.pack(pady=5)
 
         sponsor_root.mainloop()
 
@@ -140,4 +147,4 @@ class WeatherStationApp:
             messagebox.showinfo("Save Data", "Data saved successfully.")
 
     def show_about(self):
-        messagebox.showinfo("About", "Weather Station Controller\nVersion 1.0.2")
+        messagebox.showinfo("About", "Weather Station Controller\nVersion 1.1.0")
